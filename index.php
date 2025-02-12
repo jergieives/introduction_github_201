@@ -4,7 +4,7 @@
 </head>
 <body>
     <?php 
-    echo "<h2>Hello World</h2>";
+    echo "<h1>Hello Cuns &#128511; &#128069; &#128405;</h1>";
     ?>
 </body>
 </html>

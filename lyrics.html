@@ -1,16 +1,25 @@
 <html>
     <head>
         <title>Lullaby Song</title>
+        <script>
+            ahhhyeah
+        </script>
 </head>
 <body style="text-align: center;">
     <h1>Sa Ugoy ng Duyan </h1>
 
     <img src="ugoy.jpg" alt="Lucio San Pedro" img width="180"/>
     <div> 
-        <p>Sana'y di magmaliw ang dati kong araw</p>
-        <p>Nang munti pang bata sa piling ni nanay</p>
-        <p>Nais kong maulit ang awit ni inang mahal</p>
-        <p>Awit ng pag-ibig habang ako'y nasa duyan</p>
+        <!-- onclick, .innerHTML='Ugoy ni cuns'-->
+        <p id="demo"onclick="document.getElementById('demo').innerHTML='Ugoy ni cunan'" >sana'y di magmaliw ang dati kong araw,</p> 
+
+        <!-- ondblclick, .style.backgroundColor='red '-->
+        <p id="demo1"ondblclick="document.getElementById('demo1').style.backgroundColor ='red' ">Nang munti pang bata sa piling ni nanay </p>
+
+        <!-- onmouseover, .style.fontsize='60px'-->
+        <p id="demo2"onmouseover="document.getElementById('demo2').style.fontSize='60px' ">Nais kong maulit ang awit ni inang mahal</p>
+        <!-- onmouseout, style.color='blue'-->
+        <p id="demo3"onmouseout="document.getElementById('demo3').style.color='blue' ">Awit ng pag-ibig habang ako'y nasa duyan</p>
     </div>
 </body>
 </html>
